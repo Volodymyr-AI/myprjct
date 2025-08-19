@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87242F2F-F0AA-4DBA-B05C-C4F21D547E0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{83A9917D-1F37-42A7-A7FA-54BB175B1638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{363C326F-79BA-4FD3-85DD-3278A62FFD29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E2F2295E-B622-441D-A44B-D46696CC08A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{61EEF814-6B2F-42B9-A96F-FE2EDFB2E49C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5FB523F5-41A1-46DB-B0C3-4495664D2581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0D6235C1-961A-4914-812D-BD929888375E}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation.md = Documentation.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMSIntegration.Core", "PMSIntegration.Core\PMSIntegration.Core.csproj", "{FD868BDD-B363-453B-AC8C-2594AF2B03BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMSIntegration.Application", "PMSIntegration.Application\PMSIntegration.Application.csproj", "{87B2AE08-3C2B-4023-B606-76F73FBFAF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMSIntegration.Worker", "PMSIntegration.Worker\PMSIntegration.Worker.csproj", "{B237624B-8FC4-4639-9EA6-D8BE7CA5AB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMSIntegration.Infrastructure", "PMSIntegration.Infrastructure\PMSIntegration.Infrastructure.csproj", "{CCB072DF-D0A9-4241-9FC3-C189A272F59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD868BDD-B363-453B-AC8C-2594AF2B03BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD868BDD-B363-453B-AC8C-2594AF2B03BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD868BDD-B363-453B-AC8C-2594AF2B03BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD868BDD-B363-453B-AC8C-2594AF2B03BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B2AE08-3C2B-4023-B606-76F73FBFAF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B2AE08-3C2B-4023-B606-76F73FBFAF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B2AE08-3C2B-4023-B606-76F73FBFAF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B2AE08-3C2B-4023-B606-76F73FBFAF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B237624B-8FC4-4639-9EA6-D8BE7CA5AB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B237624B-8FC4-4639-9EA6-D8BE7CA5AB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B237624B-8FC4-4639-9EA6-D8BE7CA5AB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B237624B-8FC4-4639-9EA6-D8BE7CA5AB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB072DF-D0A9-4241-9FC3-C189A272F59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB072DF-D0A9-4241-9FC3-C189A272F59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB072DF-D0A9-4241-9FC3-C189A272F59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB072DF-D0A9-4241-9FC3-C189A272F59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83A9917D-1F37-42A7-A7FA-54BB175B1638} = {87242F2F-F0AA-4DBA-B05C-C4F21D547E0D}
+		{363C326F-79BA-4FD3-85DD-3278A62FFD29} = {83A9917D-1F37-42A7-A7FA-54BB175B1638}
+		{E2F2295E-B622-441D-A44B-D46696CC08A1} = {83A9917D-1F37-42A7-A7FA-54BB175B1638}
+		{61EEF814-6B2F-42B9-A96F-FE2EDFB2E49C} = {83A9917D-1F37-42A7-A7FA-54BB175B1638}
+		{FD868BDD-B363-453B-AC8C-2594AF2B03BE} = {363C326F-79BA-4FD3-85DD-3278A62FFD29}
+		{87B2AE08-3C2B-4023-B606-76F73FBFAF7F} = {363C326F-79BA-4FD3-85DD-3278A62FFD29}
+		{B237624B-8FC4-4639-9EA6-D8BE7CA5AB36} = {61EEF814-6B2F-42B9-A96F-FE2EDFB2E49C}
+		{CCB072DF-D0A9-4241-9FC3-C189A272F59B} = {E2F2295E-B622-441D-A44B-D46696CC08A1}
+	EndGlobalSection
+EndGlobal
